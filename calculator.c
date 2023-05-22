@@ -5,6 +5,6 @@ int main(void)
 {
     int x = get_int("x: ");
     int y = get_int("y: ");
-
-    printf
+    int answer = x+y;
+    printf("%i\n",answer);
 }
