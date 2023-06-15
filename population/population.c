@@ -18,7 +18,13 @@ int main(void)
     }
 
     int current_pop = start_pop;
-    
+    int i = 0;
+
+    while (current_pop < end_pop)
+    {
+        i+=1;
+        int current_pop = current_pop + current_pop/3 - current_pop/4;
+    }
 
     // TODO: Print number of years
 }
