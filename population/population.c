@@ -17,7 +17,7 @@ int main(void)
         end_pop = get_int("Ending population: ");
     }
 
-    do
+
     int current_pop = start_pop;
     int i = 0;
 
@@ -27,5 +27,5 @@ int main(void)
         current_pop = current_pop + current_pop/3 - current_pop/4;
     }
 
-    printf("Number of years needed is, %i\n", i)
+    printf("Number of years needed is, %i\n", i);
 }
