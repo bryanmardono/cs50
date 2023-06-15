@@ -17,6 +17,7 @@ int main(void)
         int end_pop = get_int("Ending population: ");
     }
 
+    do
     int current_pop = start_pop;
     int i = 0;
 
