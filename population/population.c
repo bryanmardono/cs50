@@ -27,5 +27,5 @@ int main(void)
         current_pop = current_pop + current_pop/3 - current_pop/4;
     }
 
-    printf("Number of years needed is, %i\n", i);
+    printf("Years:, %i\n", i);
 }
