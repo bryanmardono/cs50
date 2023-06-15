@@ -10,7 +10,12 @@ int main(void)
         int start_pop = get_int("Starting population: ");
     }
 
-    // TODO: Prompt for end size
+    int end_pop = get_int("Ending population: ");
+
+    while (end_pop < start_pop)
+    {
+        int end_pop = get_int("Ending population: ");
+    }
 
     // TODO: Calculate number of years until we reach threshold
 
