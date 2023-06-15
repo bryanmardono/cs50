@@ -26,5 +26,5 @@ int main(void)
         int current_pop = current_pop + current_pop/3 - current_pop/4;
     }
 
-    // TODO: Print number of years
+    printf("Number of years needed is, %)
 }
