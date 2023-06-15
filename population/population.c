@@ -17,7 +17,8 @@ int main(void)
         int end_pop = get_int("Ending population: ");
     }
 
-    // TODO: Calculate number of years until we reach threshold
+    int current_pop = start_pop;
+    
 
     // TODO: Print number of years
 }
